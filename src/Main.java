@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Задача 1");
-        for (int number = 1; number <= 10; number = number + 1) {
+        for (int number = 1; number <= 10; number++) {
             System.out.println(number);
         }
         System.out.println("задача 2");
-        for (int numberr = 10; numberr >= 1; numberr = numberr - 1) {
+        for (int numberr = 10; numberr >= 1; numberr--) {
             System.out.println(numberr);
         }
         System.out.println("задача 3");
@@ -33,7 +33,7 @@ public class Main {
         int monthsalary=29000;
         int totalsalary=0;
         int month=1;
-        for (month=0;month <=12;month=month+1){
+        for (month=1;month <=12;month=month+1){
             totalsalary=month*monthsalary;
             System.out.println(+month+ "итого в месяц "+totalsalary);
         }
@@ -41,7 +41,7 @@ public class Main {
         int mounthsalatry =29000;
         int totasalarys=0;
         int mounth=1;
-        for(mounth=0;mounth<=12;mounth=mounth+1){
+        for(mounth=1;mounth<=12;mounth=mounth+1){
             totasalarys=mounthsalatry/100*mounth;
             System.out.println(+mounth+"месяц"+totasalarys+" накоплений в месяц будет");
         }
