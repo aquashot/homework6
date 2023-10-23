@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Задача 1");
-        for (int number = 1; number <= 10; number++) {
+        for (int number = 1; number <= 10; number+1) {
             System.out.println(number);
         }
         System.out.println("задача 2");
-        for (int numberr = 10; numberr >= 1; numberr--) {
+        for (int numberr = 10; numberr >= 1; numberr-1) {
             System.out.println(numberr);
         }
         System.out.println("задача 3");
