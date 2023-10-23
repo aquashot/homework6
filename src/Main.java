@@ -29,7 +29,7 @@ public class Main {
         for (int onenumber = 1; onenumber <= 512; onenumber = onenumber * 2) {
             System.out.println(onenumber);
         }
-        System.out.println("задача 8");
+        System.out.println("задача 88");
         int monthsalary=29000;
         int totalsalary=0;
         int month=1;
